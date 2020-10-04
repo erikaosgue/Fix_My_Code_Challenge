@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 
 class square():
+    """ A class square """
 
     width = 0
     height = 0
 
-    def __init__(self, width=0, height=0):
+    def __init__(self, width, height):
+        """ Constructor """
         self.width = width
         self.height = height
 
@@ -14,9 +16,11 @@ class square():
         return self.width * self.height
 
     def PermiterOfMySquare(self):
+        """ Perimeter of the square """
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """String representation of the object """
         return "{}/{}".format(self.width, self.height)
 
 
