@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+"""Module squeare, defines a class Square """
 
-class square():
+class Square():
     """ A class square """
 
     width = 0
@@ -26,7 +27,7 @@ class square():
 
 if __name__ == "__main__":
 
-    s = square(width=12, height=12)
+    s = Square(width=12, height=12)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
